@@ -1,0 +1,12 @@
+<?php $expiration_mode = 'on_demand'; $cache = array (
+  'access_role_session_key' => 'role',
+  'access_role_if_missing' => 0,
+  'access_role_default' => 0,
+  'session_error_varname' => 'error',
+  'session_flash_varname' => 'flash',
+  'session_content_varname' => 'vars',
+  'session_attribute_varname' => 'attributes',
+  'session_history_varname' => 'referers',
+  'session_client_lifetime' => 0,
+  'session_server_lifetime' => 86400,
+); ?>

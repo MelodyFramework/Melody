@@ -1,0 +1,21 @@
+<?php $expiration_mode = 'on_demand'; $cache = array (
+  'access_role_app' => 0,
+  'access_role_default' => 0,
+  'access_role_session_key' => 'role',
+  'access_role_if_missing' => 0,
+  'access_error_default_action' => 'include',
+  'access_error_default_controller' => 
+  array (
+    0 => 'app\\controllers\\Error',
+    1 => '',
+  ),
+  'app_basename' => 'Animal\'Hom',
+  'database_user' => 'root',
+  'database_passwd' => 'toor',
+  'database_dsn' => 'mysql:host=localhost;dbname=test',
+  'database_host' => 'localhost',
+  'database_dbname' => 'test',
+  'database_port' => 3306,
+  'database_unix_socket' => '/var/run/mysqld/mysqld.sock',
+  'database_charset' => 'utf8',
+); ?>

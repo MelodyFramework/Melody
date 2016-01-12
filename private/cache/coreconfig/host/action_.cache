@@ -1,0 +1,6 @@
+<?php $expiration_mode = 'on_demand'; $cache = array (
+  'action' => 'none',
+  'recursive' => true,
+  'domain' => 'www.melody.dev',
+  'full_domain' => false,
+); ?>

@@ -1,0 +1,16 @@
+{
+    "name": "melody/melody",
+    "description": "PHP Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Choffardet",
+            "email": "robin@choffardet.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "melody/framework": "dev-master"
+    }
+}

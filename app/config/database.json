@@ -1,0 +1,10 @@
+{
+  "user" : "root",
+  "passwd" : "toor",
+  "dsn" : "mysql:host=localhost;dbname=test",
+  "host" : "localhost",
+  "dbname" : "test",
+  "port" : 3306,
+  "unix_socket" : "/var/run/mysqld/mysqld.sock",
+  "charset" : "utf8"
+}

@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f1b556f1c752c73da9cd372419102ab6",
+    "packages": [
+        {
+            "name": "melody/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MelodyFramework/framework.git",
+                "reference": "8cbce724fb1ddb27d2ba34a9835abb2087ffbff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MelodyFramework/framework/zipball/8cbce724fb1ddb27d2ba34a9835abb2087ffbff6",
+                "reference": "8cbce724fb1ddb27d2ba34a9835abb2087ffbff6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Melody\\Framework\\": "src/Melody/Framework/"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Choffardet",
+                    "email": "robin@choffardet.fr"
+                }
+            ],
+            "description": "Melody component",
+            "time": "2016-01-12 14:17:46"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "melody/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

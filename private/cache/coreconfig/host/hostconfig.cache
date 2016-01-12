@@ -1,0 +1,49 @@
+<?php $expiration_mode = 'on_demand'; $cache = array (
+  'domain' => 
+  array (
+    '_melody.dev' => 
+    array (
+    ),
+    '_www.melody.dev' => 
+    array (
+    ),
+  ),
+  'path' => 
+  array (
+    '/' => 
+    array (
+      'action' => 'none',
+      'recursive' => true,
+      'domain' => 'www.melody.dev',
+      'full_domain' => false,
+    ),
+  ),
+  'base_config' => 
+  array (
+    'domain' => 
+    array (
+      '_melody.dev' => 
+      array (
+      ),
+    ),
+    'path' => 
+    array (
+      '/' => 
+      array (
+        'action' => 'redirect',
+        'recursive' => true,
+        'domain' => 'melody.dev',
+        'full_domain' => false,
+      ),
+    ),
+    'base_config' => 
+    array (
+      'domain' => 
+      array (
+      ),
+      'path' => 
+      array (
+      ),
+    ),
+  ),
+); ?>

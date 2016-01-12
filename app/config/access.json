@@ -1,0 +1,17 @@
+{
+  "role":
+  {
+    "app" : 0,
+    "default" : 0,
+    "session_key" : "role",
+    "if_missing" : 0
+  },
+  "error" :
+  {
+    "default":
+    {
+      "action" : "include",
+      "controller" : ["app\\controllers\\Error", ""]
+    }
+  }
+}
